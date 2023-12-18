@@ -40,13 +40,11 @@ function Navbar() {
 
   return (
     <div
-      className={`bg-new sticky w-full bg-black transition-all duration-200 font-leagueSpartan 
-      ${showShadow ? "shadow-md" : ""}`
-      }
-      id="Home">
-      <header>
+      className={`sticky w-full top-0 z-20 bg-black transition-all duration-200 font-leagueSpartan ${showShadow ? "shadow-sm shadow-gray-800" : ""}`}
+    >
+      <header className="">
         <nav
-          className="flex items-center justify-between py-4 container"
+          className="flex items-center justify-between py-5 container"
           aria-label="Global">
           <div className="flex lg:flex-1">
             <a href="#hero">
