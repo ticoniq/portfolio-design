@@ -3,6 +3,7 @@ import Navbar from './layouts/Navbar';
 import Footer from './layouts/Footer';
 import Home from './pages/Home';
 import Projects from './pages/Projects';
+import About from './pages/About';
 
 function App() {
 
@@ -13,7 +14,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/project" element={<Projects />} />
-          <Route path="/about" element={<p>About</p>} />
+          <Route path="/about" element={<About />} />
           <Route path="/contact" element={<p>Contact</p>} />
         </Routes>
       </main>
