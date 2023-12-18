@@ -44,7 +44,7 @@ function Navbar() {
     >
       <header className="">
         <nav
-          className="flex items-center justify-between py-4 container"
+          className="flex items-center justify-between py-5 container"
           aria-label="Global">
           <div className="flex lg:flex-1">
             <a href="#hero">
