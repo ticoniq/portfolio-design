@@ -19,6 +19,7 @@ export default {
     extend: {
       fontFamily: {
         leagueSpartan: ['League Spartan', 'sans-serif'],
+        leagueGothic: ['League Gothic', 'sans-serif'],
       },
     },
   },
