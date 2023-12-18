@@ -21,7 +21,7 @@ function About() {
     { name: 'HTML', icon: <FaHtml5 />, color: 'text-[#E44D26]' },
     { name: 'CSS', icon: <FaCss3 />, color: 'text-blue-600' },
     { name: 'JavaScript', icon: <SiJavascript />, color: 'text-yellow-400' },
-    { name: 'ReactJS', icon: <FaReact />, color: 'text-{#00D8FF}' },
+    { name: 'ReactJS', icon: <FaReact />, color: 'text-[#00D8FF]' },
     { name: 'NodeJS', icon: <SiNodedotjs />, color: 'text-[#539E43]' },
     { name: 'Figma ', icon: <SiFigma />, color: 'text-red-500' },
     { name: 'Chrome', icon: <FaChrome />, color: 'text-yellow-500' },
