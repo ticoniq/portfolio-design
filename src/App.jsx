@@ -1,5 +1,6 @@
 import { Routes, Route } from 'react-router-dom';
 import Navbar from './layouts/Navbar';
+import Footer from './layouts/Footer';
 import Home from './pages/Home';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
           <Route path="/contact" element={<p>Contact</p>} />
         </Routes>
       </main>
+      <Footer />
     </>
   )
 }
