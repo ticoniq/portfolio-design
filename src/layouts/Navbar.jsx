@@ -84,7 +84,7 @@ function Navbar() {
                 <ul className="space-y-3 md:space-y-6">
                   {navigation.map((item) => (
                     <li key={item.name} className="flex justify-start items-center group/item">
-                      <p className={`font-semibold text-xs transform rotate-90 uppercase md:text-lg group/edt invisible group-hover/item:visible ${isPageActive ===  item.href ? 'visible bg-red-500' : ''}`}>menu</p>
+                      <p className={`font-semibold text-xs transform rotate-90 uppercase md:text-lg group/edt ${isPageActive ===  item.href ? 'visible' : 'invisible group-hover/item:visible'}`}>menu</p>
                       <Link
                         to={item.href}
                         onClick={() => setMobileMenuOpen(false)}
