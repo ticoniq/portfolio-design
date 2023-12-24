@@ -40,7 +40,8 @@ function Navbar() {
 
   return (
     <div
-      className={`sticky w-full top-0 z-20 bg-black transition-all duration-200 font-leagueSpartan ${showShadow ? "shadow-sm shadow-gray-800" : ""}`}
+      className={`sticky w-full top-0 z-20 bg-black transition-all duration-200 font-leagueSpartan 
+      ${showShadow ? "shadow-sm shadow-gray-800" : ""}`}
     >
       <header className="">
         <nav
